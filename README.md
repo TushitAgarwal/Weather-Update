@@ -17,5 +17,7 @@ This program is used to find live weather of all the selected cities and store t
         
 Implemented the project in PYTHON 3.8.3
 
+Make sure you have working internet while running the program in order to download zip file.
+
 
   
