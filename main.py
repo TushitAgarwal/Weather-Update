@@ -62,6 +62,8 @@ def wait(n):
 
 
 def main():
+    with open("key.txt", 'r') as f:
+        key = f.read()
     if os.path.isfile(os.path.join(os.getcwd(), "task1.xlsx")):
         try:
             print("Loading Workbook...", end = "\r")
@@ -92,7 +94,7 @@ def main():
                 cityToken, temperature, humidity, unit, update = map(lambda x: x.value, row)
                 
                 if update == 1:
-                    d = json.loads(get(f"http://api.openweathermap.org/data/2.5/weather?id={cityToken}&appid=5a4581a471721bb8b3e1e2df99814958").text)
+                    d = json.loads(get(f"http://api.openweathermap.org/data/2.5/weather?id={cityToken}&appid={key}").text)
                     if unit == "F":
                         temperature = "%.3f" %kelvin_to_Celcius(Celcius_to_Fahrenheit(d["main"]["temp"]))
                     elif unit == "C":
