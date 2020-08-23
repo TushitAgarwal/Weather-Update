@@ -17,5 +17,5 @@ This program is used to find live weather of all the selected cities and store t
         
 Implemented the project in PYTHON 3.8.3
 
-![#f03c15](https://www.instagram.com/_tushitagarwal_/)
+- ![#f03c15](https://www.instagram.com/_tushitagarwal_/) `#f03c15`
   
