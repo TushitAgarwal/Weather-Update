@@ -1,3 +1,5 @@
+__author__ = "TUSHIT AGARWAL"
+
 from requests import get
 import json
 from openpyxl import Workbook, load_workbook
