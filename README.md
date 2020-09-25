@@ -12,6 +12,7 @@ This program is used to find live weather of all the selected cities and store t
 4) Download all dependencies using the command
         python -m pip install -r requirements.txt
 5) Run [main.py](https://github.com/TushitAgarwal/Weather-Update/blob/master/main.py) file.
+
         ```
         python main.py
         ```
