@@ -4,7 +4,7 @@ This program is used to find live weather of all the selected cities and store t
 -> Weather will be updated after every fix time of interval.
 
 
-# How to run the program
+## How to run the program
 
 1) Register on the website https://openweathermap.org/ for weather API.
 2) Get your API key.
